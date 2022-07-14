@@ -4,7 +4,7 @@
 <ul class="sidebar-nav" id="sidebar-nav">
 
     <li class="nav-item">
-        <a class="nav-link " href="{{ route('admin-home')}}">
+        <a class="nav-link " href="{{ route('admin.home')}}">
             <i class="bi bi-grid"></i>
             <span>Dashboard</span>
         </a>
@@ -23,7 +23,36 @@
             </li>
             <li>
                 <a href="#">
-                    <i class="bi bi-circle"></i><span>Data Kepala Keluarga</span>
+                    <i class="bi bi-circle"></i><span>Data Kartu Keluarga</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    <!-- End Components Nav -->
+
+    <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav2" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-menu-button-wide"></i><span>Sirkulasi Penduduk</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav2" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+                <a href="#">
+                    <i class="bi bi-circle"></i><span>Data Kelahiran</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bi bi-circle"></i><span>Data Meninggal</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bi bi-circle"></i><span>Data Pendatang</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bi bi-circle"></i><span>Data Pindah</span>
                 </a>
             </li>
         </ul>
