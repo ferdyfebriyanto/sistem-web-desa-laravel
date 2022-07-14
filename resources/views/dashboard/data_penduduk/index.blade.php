@@ -22,7 +22,7 @@
         <div class="card-body">
           <h5 class="card-title">Tabel Penduduk</h5>
           <!-- <p>Add lightweight datatables to your project with using the <a href="https://github.com/fiduswriter/Simple-DataTables" target="_blank">Simple DataTables</a> library. Just add <code>.datatable</code> class name to any table you wish to conver to a datatable</p> -->
-          <button type="button" class="btn btn-success" href="{{ route ('')}}">Tambah</button>
+          <button type="button" class="btn btn-success" href="{{ route ('penduduk.create')}}">Tambah</button>
           <!-- Table with stripped rows -->
           <table class="table datatable">
             <thead>
