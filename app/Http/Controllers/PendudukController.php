@@ -15,7 +15,7 @@ class PendudukController extends Controller
      */
     public function index()
     {
-        return view ('dashboard.data_penduduk.index');
+        return view ('dashboard.data-penduduk.index');
     }
 
     /**
@@ -25,7 +25,7 @@ class PendudukController extends Controller
      */
 
     public function create(){
-        return view ('dashboard.data_penduduk.create');
+        return view ('dashboard.data-penduduk.create');
     }
 
     /**
@@ -91,7 +91,7 @@ class PendudukController extends Controller
      */
     public function show(Penduduk $penduduk)
     {
-        return view ('dashboard.data_penduduk.show', compact('penduduk'));
+        return view ('dashboard.data-penduduk.show', compact('penduduk'));
     }
 
     /**
@@ -102,7 +102,7 @@ class PendudukController extends Controller
      */
     public function edit(Penduduk $penduduk)
     {
-        return view ('dashboard.data_penduduk.edit', compact('penduduk'));   
+        return view ('dashboard.data-penduduk.edit', compact('penduduk'));   
     }
 
     /**
