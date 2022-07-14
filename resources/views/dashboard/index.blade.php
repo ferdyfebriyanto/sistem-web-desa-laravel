@@ -25,7 +25,7 @@
                     <div class="row">
 
                         <!-- Jumlah Penduduk -->
-                        <div class="col-xxl-4 col-md-6">
+                        <div class="col-xxl-4 col-xl-4 col-md-6">
                             <div class="card info-card sales-card">
 
                                 <div class="card-body">
@@ -48,7 +48,7 @@
                         <!-- End Jumlah Penduduk -->
 
                         <!-- Jumlah KK -->
-                        <div class="col-xxl-4 col-md-6">
+                        <div class="col-xxl-4 col-xl-4 col-md-6">
                             <div class="card info-card revenue-card">
 
                                 <div class="card-body">
@@ -71,7 +71,7 @@
                         <!-- End Jumlah KK -->
 
                         <!-- Jumlah Penduduk Laki-laki -->
-                        <div class="col-xxl-4 col-xl-12">
+                        <div class="col-xxl-4 col-xl-4 col-md-6">
 
                             <div class="card info-card customers-card">
 
@@ -96,7 +96,7 @@
                         <!-- End Jumlah Penduduk Perempuan -->
 
                          <!-- Jumlah Penduduk Laki-laki -->
-                         <div class="col-xxl-4 col-xl-12">
+                         <div class="col-xxl-4 col-xl-4 col-md-6">
 
                             <div class="card info-card sales-card">
 
@@ -120,7 +120,7 @@
                         <!-- End Jumlah Penduduk Perempuan -->
 
                          <!-- Jumlah Kelahiran -->
-                         <div class="col-xxl-4 col-md-6">
+                         <div class="col-xxl-4 col-xl-4 col-md-6">
                             <div class="card info-card revenue-card">
 
                                 <div class="card-body">
@@ -143,7 +143,7 @@
                         <!-- End Sales Card -->
 
                         <!-- Revenue Card -->
-                        <div class="col-xxl-4 col-md-6">
+                        <div class="col-xxl-4 col-xl-4 col-md-6">
                             <div class="card info-card customers-card">
 
                                 <div class="card-body">
@@ -166,7 +166,7 @@
                         <!-- End Revenue Card -->
 
                         <!-- Customers Card -->
-                        <div class="col-xxl-4 col-xl-12">
+                        <div class="col-xxl-4 col-xl-4 col-md-6">
 
                             <div class="card info-card sales-card">
 
@@ -191,7 +191,7 @@
                         <!-- End Customers Card -->
 
                          <!-- Sales Card -->
-                         <div class="col-xxl-4 col-md-6">
+                         <div class="col-xxl-4 col-xl-4 col-md-6">
                             <div class="card info-card revenue-card">
 
                                 <div class="card-body">
